@@ -1,0 +1,1 @@
+Clone HuggingFace model from this repo: https://huggingface.co/nvidia/DAM-3B-Video

@@ -1,0 +1,16 @@
+{
+    "video_dir": "path/to/video/frames",
+    "points_list": [[[1172, 812], [1572, 800]]],
+    "boxes_list": null,
+    "query": "Video: <image><image><image><image><image><image><image><image>\nGiven the video in the form of a sequence of frames above, describe the object in the masked region in the video in detail.",
+    "model_path": "models/DAM-3B-Video",
+    "prompt_mode": "focal_prompt",
+    "conv_mode": "v1",
+    "temperature": 0.2,
+    "top_p": 0.5,
+    "output_image_path": "output.png",
+    "normalized_coords": false,
+    "no_stream": false,
+    "use_box": false,
+    "log_file": "logs/processing.log"
+}

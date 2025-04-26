@@ -1,0 +1,5 @@
+DAM CLI Wrapper Versions:
+v0.1.0 - Initial implementation
+
+Model Compatibility:
+- nvidia/DAM-3B-Video: Compatible with v0.1.0+
