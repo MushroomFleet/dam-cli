@@ -33,17 +33,22 @@ The CLI wraps around the functionality provided in the original `dam_video_with_
 git clone https://github.com/MushroomFleet/dam-cli
 cd dam-cli
 
-# Run the installation script
+# Run the installation script (dam-cli)
 install.bat
 
-# For GPU acceleration (CUDA)
-pip install -r requirements-cuda.txt
+# NOTE: Required DAM package
+cd ..
+git clone https://github.com/MushroomFleet/describe-anything
+cd describe-anything
+
+# Run the installation script (DAM)
+install.bat
 ```
 
 ### Linux/Mac
 
 ```bash
-# Clone the repository
+# Clone the dam-cli wrapper
 git clone https://github.com/MushroomFleet/dam-cli
 cd dam-cli
 
@@ -55,6 +60,14 @@ chmod +x install.sh
 
 # For GPU acceleration (CUDA)
 pip install -r requirements-cuda.txt
+
+# DAM package
+
+git clone https://github.com/MushroomFleet/describe-anything
+cd describe-anything
+
+# For GPU acceleration (CUDA)
+pip install -v .
 ```
 
 ### Manual Installation
