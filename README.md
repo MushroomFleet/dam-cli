@@ -30,7 +30,7 @@ The CLI wraps around the functionality provided in the original `dam_video_with_
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/MushroomFleet/dam-cli
 cd dam-cli
 
 # Run the installation script
@@ -44,7 +44,7 @@ pip install -r requirements-cuda.txt
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/MushroomFleet/dam-cli
 cd dam-cli
 
 # Make the installation script executable

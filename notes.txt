@@ -1,0 +1,1 @@
+python scripts/dam_describe.py --video_file K:\MACHINES14\ComfyUI_windows_portable_nvidia\ComfyUI_windows_portable\ComfyUI\output\VID-GEN\companion\djz_00001.mp4 --points_list "[[[1172, 812], [1572, 800]]]"
